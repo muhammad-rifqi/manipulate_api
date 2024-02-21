@@ -1,0 +1,34 @@
+{
+    "status":1,
+    "message":"Data Successfuly Retrieved.",
+    "data":[
+       {
+          "code":"01000",
+          "name":"Wahana Honda Gunung Sahari",
+          "address":"Jalan Gunung Sahari",
+          "phone_number":"085800000000",
+          "distance":5.2
+       },
+       {
+          "code":"11497",
+          "name":"AHASS KAWI Indah Jaya Motor 3",
+          "address":"Jakarta Pusat",
+          "phone_number":"085300000000",
+          "distance":10.3
+       },
+       {
+          "code":"00190",
+          "name":"Dunia Motor Kebayoran Lama",
+          "address":"Kebayoran Lama, Jakarta Selatan",
+          "phone_number":"085600000000",
+          "distance":2.5
+       },
+       {
+          "code":"07577",
+          "name":"AHASS TUNGGAL JAYA",
+          "address":"Jakarta Timur",
+          "phone_number":"085200000000",
+          "distance":11.5
+       }
+    ]
+ }
