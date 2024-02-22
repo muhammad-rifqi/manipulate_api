@@ -15,7 +15,7 @@ class DataController extends Controller
     {
 
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, "http://localhost/my_project/public/api/json1");
+        curl_setopt($curl, CURLOPT_URL, "http://localhost/manipulate_api/public/api/json1");
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         $output = curl_exec($curl);
         curl_close($curl);
@@ -45,7 +45,7 @@ class DataController extends Controller
     public function getCode($search){
 
         $curl2 = curl_init();
-        curl_setopt($curl2, CURLOPT_URL, "http://localhost/my_project/public/api/json2");
+        curl_setopt($curl2, CURLOPT_URL, "http://localhost/manipulate_api/public/api/json2");
         curl_setopt($curl2, CURLOPT_RETURNTRANSFER, 1);
         $output2 = curl_exec($curl2);
         curl_close($curl2);
@@ -69,7 +69,7 @@ class DataController extends Controller
     public function all_data()
     {
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, "http://localhost/my_project/public/data/manipulate");
+        curl_setopt($curl, CURLOPT_URL, "http://localhost/manipulate_api/public/data/manipulate");
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         $output = curl_exec($curl);
         curl_close($curl);
